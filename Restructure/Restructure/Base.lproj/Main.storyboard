@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ISo-eZ-BSX"/>
+                        <viewControllerLayoutGuide type="bottom" id="OCu-cV-7qS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aEh-uT-tKA">
+                                <rect key="frame" x="19" y="30" width="337.5" height="333.5"/>
+                                <color key="backgroundColor" red="0.51068296950000003" green="1" blue="0.1152130103" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAo-RI-RQm">
+                                <rect key="frame" x="16" y="399.5" width="76" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="GoH-bf-PGf"/>
+                                    <constraint firstAttribute="height" constant="30" id="afX-eR-BMr"/>
+                                </constraints>
+                                <state key="normal" title="Action One"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3D-Lc-sd0">
+                                <rect key="frame" x="16" y="473.5" width="88" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="XSb-6j-RKe"/>
+                                    <constraint firstAttribute="width" constant="88" id="bnY-Nl-iGb"/>
+                                </constraints>
+                                <state key="normal" title="Action Three"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LR0-uK-3wi">
+                                <rect key="frame" x="280" y="474.5" width="79" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="1C3-xs-Ww4"/>
+                                    <constraint firstAttribute="height" constant="29" id="B0j-Ti-4B4"/>
+                                </constraints>
+                                <state key="normal" title="Action Four"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFz-Rm-wUD">
+                                <rect key="frame" x="283" y="399.5" width="76" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Ght-vB-lNJ"/>
+                                    <constraint firstAttribute="width" constant="76" id="yv0-ar-fph"/>
+                                </constraints>
+                                <state key="normal" title="Action Two"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HAo-RI-RQm" firstAttribute="top" secondItem="aEh-uT-tKA" secondAttribute="bottom" constant="36" id="HMW-8O-kmC"/>
+                            <constraint firstItem="aEh-uT-tKA" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="ScG-sm-pYe"/>
+                            <constraint firstItem="LR0-uK-3wi" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="bG6-hG-x0Q"/>
+                            <constraint firstItem="aEh-uT-tKA" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="giH-tb-wu3"/>
+                            <constraint firstItem="LR0-uK-3wi" firstAttribute="top" secondItem="NFz-Rm-wUD" secondAttribute="bottom" constant="45" id="hQ8-33-w4g"/>
+                            <constraint firstItem="I3D-Lc-sd0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iqk-OH-qlH"/>
+                            <constraint firstItem="I3D-Lc-sd0" firstAttribute="top" secondItem="HAo-RI-RQm" secondAttribute="bottom" constant="44" id="mmk-0I-wS1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NFz-Rm-wUD" secondAttribute="trailing" id="qAE-8v-sMs"/>
+                            <constraint firstItem="NFz-Rm-wUD" firstAttribute="top" secondItem="aEh-uT-tKA" secondAttribute="bottom" constant="36" id="tNu-NP-vzb"/>
+                            <constraint firstItem="HAo-RI-RQm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tuD-D9-gLM"/>
+                            <constraint firstItem="aEh-uT-tKA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uyi-NE-hGV"/>
+                            <constraint firstItem="aEh-uT-tKA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="30" id="zec-Ji-jiJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="actionButton1" destination="HAo-RI-RQm" id="oyf-9g-Jpo"/>
+                        <outlet property="actionButton2" destination="NFz-Rm-wUD" id="xlA-uC-ga5"/>
+                        <outlet property="actionButton3" destination="I3D-Lc-sd0" id="S98-3Z-dWZ"/>
+                        <outlet property="actionButton4" destination="LR0-uK-3wi" id="Pmu-D1-izt"/>
+                        <outlet property="contentView" destination="aEh-uT-tKA" id="yKg-yD-jgg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73.5" y="153.5"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

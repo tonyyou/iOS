@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844240611F4D4E0800A62247 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844240601F4D4E0800A62247 /* main.m */; };
+		844240641F4D4E0800A62247 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844240631F4D4E0800A62247 /* AppDelegate.m */; };
+		844240671F4D4E0800A62247 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844240661F4D4E0800A62247 /* FirstViewController.m */; };
+		8442406A1F4D4E0800A62247 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844240691F4D4E0800A62247 /* SecondViewController.m */; };
+		8442406D1F4D4E0800A62247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8442406B1F4D4E0800A62247 /* Main.storyboard */; };
+		8442406F1F4D4E0800A62247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8442406E1F4D4E0800A62247 /* Assets.xcassets */; };
+		844240721F4D4E0800A62247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844240701F4D4E0800A62247 /* LaunchScreen.storyboard */; };
+		8442407A1F4D519800A62247 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 844240791F4D519800A62247 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8442405C1F4D4E0800A62247 /* Bridge Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bridge Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844240601F4D4E0800A62247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844240621F4D4E0800A62247 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		844240631F4D4E0800A62247 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844240651F4D4E0800A62247 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		844240661F4D4E0800A62247 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		844240681F4D4E0800A62247 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		844240691F4D4E0800A62247 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8442406C1F4D4E0800A62247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8442406E1F4D4E0800A62247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844240711F4D4E0800A62247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844240731F4D4E0800A62247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844240791F4D519800A62247 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8442407D1F4D6A9B00A62247 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844240591F4D4E0800A62247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844240531F4D4E0800A62247 = {
+			isa = PBXGroup;
+			children = (
+				8442405E1F4D4E0800A62247 /* Bridge Control */,
+				8442405D1F4D4E0800A62247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8442405D1F4D4E0800A62247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8442405C1F4D4E0800A62247 /* Bridge Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8442405E1F4D4E0800A62247 /* Bridge Control */ = {
+			isa = PBXGroup;
+			children = (
+				8442407D1F4D6A9B00A62247 /* Constants.h */,
+				844240621F4D4E0800A62247 /* AppDelegate.h */,
+				844240631F4D4E0800A62247 /* AppDelegate.m */,
+				844240651F4D4E0800A62247 /* FirstViewController.h */,
+				844240661F4D4E0800A62247 /* FirstViewController.m */,
+				844240681F4D4E0800A62247 /* SecondViewController.h */,
+				844240691F4D4E0800A62247 /* SecondViewController.m */,
+				8442406B1F4D4E0800A62247 /* Main.storyboard */,
+				8442406E1F4D4E0800A62247 /* Assets.xcassets */,
+				844240701F4D4E0800A62247 /* LaunchScreen.storyboard */,
+				844240731F4D4E0800A62247 /* Info.plist */,
+				8442405F1F4D4E0800A62247 /* Supporting Files */,
+				844240791F4D519800A62247 /* Settings.bundle */,
+			);
+			path = "Bridge Control";
+			sourceTree = "<group>";
+		};
+		8442405F1F4D4E0800A62247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844240601F4D4E0800A62247 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8442405B1F4D4E0800A62247 /* Bridge Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844240761F4D4E0800A62247 /* Build configuration list for PBXNativeTarget "Bridge Control" */;
+			buildPhases = (
+				844240581F4D4E0800A62247 /* Sources */,
+				844240591F4D4E0800A62247 /* Frameworks */,
+				8442405A1F4D4E0800A62247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bridge Control";
+			productName = "Bridge Control";
+			productReference = 8442405C1F4D4E0800A62247 /* Bridge Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844240541F4D4E0800A62247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FISC;
+				TargetAttributes = {
+					8442405B1F4D4E0800A62247 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 92VJ2PPP4A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 844240571F4D4E0800A62247 /* Build configuration list for PBXProject "Bridge Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844240531F4D4E0800A62247;
+			productRefGroup = 8442405D1F4D4E0800A62247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8442405B1F4D4E0800A62247 /* Bridge Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8442405A1F4D4E0800A62247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8442407A1F4D519800A62247 /* Settings.bundle in Resources */,
+				844240721F4D4E0800A62247 /* LaunchScreen.storyboard in Resources */,
+				8442406F1F4D4E0800A62247 /* Assets.xcassets in Resources */,
+				8442406D1F4D4E0800A62247 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844240581F4D4E0800A62247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8442406A1F4D4E0800A62247 /* SecondViewController.m in Sources */,
+				844240641F4D4E0800A62247 /* AppDelegate.m in Sources */,
+				844240671F4D4E0800A62247 /* FirstViewController.m in Sources */,
+				844240611F4D4E0800A62247 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8442406B1F4D4E0800A62247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8442406C1F4D4E0800A62247 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844240701F4D4E0800A62247 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844240711F4D4E0800A62247 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844240741F4D4E0800A62247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844240751F4D4E0800A62247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844240771F4D4E0800A62247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92VJ2PPP4A;
+				INFOPLIST_FILE = "Bridge Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiscrd2app.Bridge-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		844240781F4D4E0800A62247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92VJ2PPP4A;
+				INFOPLIST_FILE = "Bridge Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiscrd2app.Bridge-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844240571F4D4E0800A62247 /* Build configuration list for PBXProject "Bridge Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844240741F4D4E0800A62247 /* Debug */,
+				844240751F4D4E0800A62247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844240761F4D4E0800A62247 /* Build configuration list for PBXNativeTarget "Bridge Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844240771F4D4E0800A62247 /* Debug */,
+				844240781F4D4E0800A62247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844240541F4D4E0800A62247 /* Project object */;
+}
